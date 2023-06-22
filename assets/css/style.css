@@ -2,87 +2,88 @@
     font-family: Yanone Kaffeesatz;
     src: url('../fonts/YanoneKaffeesatz-Regular.eot');
     src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf');
-    }
-    
-    html {
+  }
+  
+  html {
     height: 100%;
-    }
-    
-    *{
-    padding: 0;
+  }
+  
+  * {
     margin: 0;
-    }
-    article,
-    aside,
-    figure,
-    footer,
-    header,
-    hgroup,
-    nav,
-    section {
+    padding: 0;
+  }
+  
+  article,
+  aside,
+  figure,
+  footer,
+  header,
+  hgroup,
+  nav,
+  section {
     display: block;
-    }
-    
-    body {
+  }
+  
+  body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: larger;
     background: #C4E9E8 url(../images/back.png) repeat-x;
     color: #555;
-    }
-    
-    #container {
+  }
+  
+  #container {
     display: flex;
-    background: transparent url(../images/grass.png) repeat-x bottom;
     height: 100%;
-    }
-    
-    #main {
-    position: relative;
-    margin: 20px auto;
-    width: 850px;
+    background: transparent url(../images/grass.png) repeat-x bottom;
+  }
+  
+  #main {
     background-color: white;
     border: 10px solid white;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    width: 850px;
     display: flex;
     flex-direction: column;
-    }
-    
-    #sun {
+  }
+  
+  #sun {
     position: absolute;
-    }
-    
-    #menu {
+  }
+  
+  #menu {
+    background-color: #53C7FD;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     margin: 25px 0px;
     width: 100%;
-    background-color: #53C7FD;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    }
-    
-    #menu #links a {
+  }
+  
+  #menu #links a {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
     padding: 10px 25px;
     text-decoration: none;
     color: #FFF;
-    }
-    
-    .submenu {
-    display: none;
+  }
+  
+  .submenu {
     position: absolute;
+    display: none;
     background-color: #53C7FD;
-    }
-    
-    .submenu-trigger:hover+.submenu,
-    .submenu:hover {
+  }
+  
+  .submenu-trigger:hover + .submenu,
+  .submenu:hover {
     display: flex;
     flex-direction: column;
     margin-left: 350px;
-    }
-    
-    footer {
+  }
+  
+  footer {
     margin-top: 25px;
     display: inline-block;
     background-color: #53C7FD;
@@ -94,21 +95,21 @@
     width: 830px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    }
-    
-    footer a {
+  }
+  
+  footer a {
     color: #FFF;
-    }
-    
-    footer p{
+  }
+  
+  footer p {
     text-align: center;
-    }
-    
-    footer #links {
+  }
+  
+  footer #links {
     margin: 10px 0px;
-    }
-    
-    footer #links a {
+  }
+  
+  footer #links a {
     display: inline-block;
     vertical-align: middle;
     border-right: 1px solid white;
@@ -116,34 +117,35 @@
     text-decoration: underline;
     color: #FFF;
     padding: 0px 5px;
-    }
-    
-    footer #links a:last-child {
+  }
+  
+  footer #links a:last-child {
     border-right: none;
-    }
-    
-    footer #links a:hover,
-    #menu #links a:hover {
+  }
+  
+  footer #links a:hover,
+  #menu #links a:hover {
     color: #E5017D;
-    }
-    
-    h1,
-    h3,
-    p {
+  }
+  
+  h1,
+  h3,
+  p {
     margin: 10px 0px;
-    }
-    
-    h1 {
+  }
+  
+  h1 {
     color: #E5017D;
     font-size: xx-large;
     text-align: center;
-    }
-    
-    h3 {
+  }
+  
+  h3 {
     color: #C1EA84;
     font-size: larger;
-    }
-    
-    p {
+  }
+  
+  p {
     text-align: justify;
-    }
+  }
+  
